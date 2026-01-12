@@ -1,0 +1,57 @@
+const flashDealsData = [
+  {
+    id: 1,
+    img: "/src/assets/Images/shop-7.webp",
+    price: 320,
+    oldPrice: 400,
+    title: "Rubber Handle Hand Tools Drill 12 Inch Drill Machine",
+    rating: 5,
+    reviews: "2k+ Ratings",
+  },
+  {
+    id: 2,
+    img: "/src/assets/Images/shop-8.webp",
+    price: 200,
+    oldPrice: 300,
+    title: "Hammer Drill Carbon Fiber Mutifuntional Service",
+    rating: 5,
+    reviews: "3k+ Ratings",
+  },
+  {
+    id: 3,
+    img: "/src/assets/Images/shop-10.webp",
+    price: 100,
+    oldPrice: 200,
+    title: "Hand Tools Rubber Handle Drill 4/3 Inch Drill",
+    rating: 5,
+    reviews: "1k+ Ratings",
+  },
+  {
+    id: 4,
+    img: "/src/assets/Images/shop-11.webp",
+    price: 200,
+    oldPrice: 300,
+    title: "Carbon Steel Hammer Drill Mutifuntional Service",
+    rating: 5,
+    reviews: "3k+ Ratings",
+  },{
+    id: 5,
+    img: "/src/assets/Images/shop-12.webp",
+    price: 230,
+    oldPrice: 300,
+    title: "Wall Polishing Square Sander Electric Machine Drill",
+    rating: 5,
+    reviews: "1k+ Ratings",
+  },
+  {
+    id: 6,
+    img: "/src/assets/Images/shop-13.webp",
+    price: 450,
+    oldPrice: 500,
+    title: "Professional Straight Cutting Scissor Drill Machine Tool",
+    rating: 5,
+    reviews: "3k+ Ratings",
+  },
+];
+
+export default flashDealsData;
