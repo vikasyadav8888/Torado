@@ -14,7 +14,7 @@ router.post("/order",verifyToken, createOrder);
 router.get("/", getOrders);
 router.get("/my-orders",verifyToken, getOrders);
 router.get("/:id",verifyToken, getOrderById);
-router.put("/orders",verifyToken, updateOrder);
-router.delete("/orders/:id",verifyToken, deleteOrder);
+router.put("/update/:id",verifyToken, updateOrder);
+router.delete("/delete/:id",verifyToken, deleteOrder);
 
 export default router;

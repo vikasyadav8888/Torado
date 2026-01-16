@@ -8,6 +8,6 @@ router.post("/createmap", blogCategoryMapController.create);
 router.get("/", blogCategoryMapController.getAll);
 router.get("/:id", blogCategoryMapController.getById);
 router.put("/:id", blogCategoryMapController.update);
-router.delete("/:id", blogCategoryMapController.hardDelete);
+router.delete("delete/:id", blogCategoryMapController.hardDelete);
 
 export default router;

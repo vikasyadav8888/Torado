@@ -1,7 +1,8 @@
-import React from "react";
+import {useNavigate} from "react-router-dom";
 import { FaSearch, FaMapMarkerAlt, FaHeadset } from "react-icons/fa";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="section-main">
@@ -12,6 +13,7 @@ const Header = () => {
               src="/src/assets/Images/logo.webp"
               alt="Torado Logo"
               className="td-logo-img"
+              onClick={() => navigate("/")}
             />
           </div>
 

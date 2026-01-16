@@ -39,7 +39,9 @@ const Dashboard = () => {
   });
 
   useEffect(() => {
+
     fetchDashboardCounts();
+    
   }, []);
 
   const fetchDashboardCounts = async () => {

@@ -80,7 +80,7 @@ const ShopDetail = () => {
         </div>
       </section>
 
-      {/* ✅ UPDATED: productId pass ki */}
+     
       <ProductTabs productId={pdProduct.id} />
     </>
   );

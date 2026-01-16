@@ -2,14 +2,14 @@ import React from "react";
 import { FaBars, FaUserCircle,FaSearch } from "react-icons/fa";
 
 
-const AdminHeader = ({ toggleSidebar }) => {
+const AdminHeader = () => {
   const user = JSON.parse(localStorage.getItem("user"));
 
   return (
     <header className="admin-header">
       {/* Left */}
       <div className="header-left">
-        <FaBars className="menu-icon" onClick={toggleSidebar} />
+        {/* <FaBars className="menu-icon" onClick={toggleSidebar} /> */}
         <img
           src="/src/assets/Images/logo.webp"
           alt="Logo"

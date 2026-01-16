@@ -8,6 +8,6 @@ router.post("/create", blogTagController.create);
 router.get("/", blogTagController.getAll);
 router.get("/:id", blogTagController.getById);
 router.put("/:id", blogTagController.update);
-router.delete("/:id", blogTagController.hardDelete);
+router.delete("delete/:id", blogTagController.hardDelete);
 
 export default router;

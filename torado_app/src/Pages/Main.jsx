@@ -10,6 +10,16 @@ import OurTeamb from "./OurTeamb";
 import ProductReview from "./ProductReview";
 import ProductDetails from "./ProductDetails";
 import ProductCatagory from "./ProductCatagory";
+import Main_blog from "../Components/Main_blog";
+import BlogCategory from "../Components/BlogCategory";
+import CategoryMap from "../Components/CategoryMap";
+import BlogTags from "../Components/BlogTags";
+import TagsMap from "../Components/TagsMap";
+import BlogParagraph from "../Components/BlogParagraph";
+import BlogPresale from "../Components/BlogPresale";
+import AfterBlogSale from "../Components/AfterBlogSale";
+import BlogComments from "../Components/BlogComments";
+import OdersAdmin from "../Components/OdersAdmin";
 
 const Main = () => {
   const [activeTab, setActiveTab] = useState("dashboard");
@@ -35,6 +45,33 @@ const Main = () => {
       case "product-details":
         return <ProductDetails/>;
 
+      case "main-blogs":
+        return <Main_blog/>;
+
+      case "blog-category":
+        return <BlogCategory/>;
+        
+      case "category-map":
+        return <CategoryMap/>;
+        
+      case "blog-tags":
+        return <BlogTags/>;
+
+      case "tag-map":
+        return <TagsMap/>;
+
+      case "blog-paragraph":
+        return <BlogParagraph/>;
+
+      case "pre-sale-blogs":
+        return <BlogPresale/>;
+
+      case "after-sale-blogs":
+        return <AfterBlogSale/>;
+
+      case "blog-comments":
+        return <BlogComments/>;
+
       case "faq":
         return <Faqadmin />;
 
@@ -43,6 +80,8 @@ const Main = () => {
 
       case "our-team":
         return <OurTeamb />;
+        case "orders":
+          return <OdersAdmin/>;
 
       default:
         return <Dashbord />;

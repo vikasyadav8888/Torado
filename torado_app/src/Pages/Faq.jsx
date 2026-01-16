@@ -16,6 +16,17 @@ const Faq = () => {
   };
 
   return (
+    <>
+    <section className="about-hero">
+      <div className="about-hero-overlay"></div>
+
+      <div className="about-hero-content">
+        <h1>Frequently Asked Questions</h1>
+        <p>
+          Home <span>/</span> <span className="active">FAQ</span>
+        </p>
+      </div>
+    </section>
     <section className="section-main2">
     <section className="faq-section">
       {/* LEFT SIDE IMAGES */}
@@ -53,6 +64,7 @@ const Faq = () => {
       </div>
     </section>
     </section>
+    </>
   );
 };
 
