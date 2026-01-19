@@ -20,7 +20,7 @@ import {
   FaFire,
   FaShoppingBag,
   FaComments,
-  FaReceipt,          // ✅ NEW ICON FOR ORDERS
+  FaReceipt,          
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 

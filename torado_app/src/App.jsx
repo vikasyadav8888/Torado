@@ -41,7 +41,6 @@ function App() {
 
   return (
     <>
-      {/* ✅ USER HEADER / NAVBAR */}
       {!isAdminPage && (
         <>
           <Header1 />
@@ -49,7 +48,6 @@ function App() {
           <Navbar />
         </>
       )}
-
       {/* ROUTES */}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -73,14 +71,9 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/orders" element={<Orders />} />
         <Route path="/register" element={<Register />} />
-
-        {/* 🔥 ADMIN PAGE */}
         <Route path="/main" element={<Main />} />
       </Routes>
-
-      {/* ✅ USER FOOTER */}
       {!isAdminPage && <Footer />}
-
       <ToastContainer
         position="top-center"
         autoClose={2000}

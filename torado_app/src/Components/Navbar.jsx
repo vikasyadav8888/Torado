@@ -169,7 +169,7 @@ const Navbar = () => {
               <li>
                 <Link to="/cart">Cart</Link>{" "}
               </li>
-              <li>Wishlist</li>
+              <li><Link to="/wishlist">Wishlist </Link></li>
               <li>Compare Products</li>
               <li>
                 <Link to="/checkout">Checkout</Link>

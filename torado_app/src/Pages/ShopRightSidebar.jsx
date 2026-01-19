@@ -25,16 +25,16 @@ function ShopRightSidebar() {
       // Price filter
       const priceMatch = Number(item.price) <= price;
 
-      // Color filter (case-insensitive)
+    
       const colorMatch =
         colors.length === 0 ||
         colors.map((c) => c.toLowerCase()).includes(item.color.toLowerCase());
 
-      // Category filter
+      
       const categoryMatch =
         categories.length === 0 || categories.includes(item.category_name);
 
-      // Condition filter using tag_type
+      
       const conditionMatch =
         conditions.length === 0 ||
         (conditions.includes("New") && item.tag_type === "new") ||
